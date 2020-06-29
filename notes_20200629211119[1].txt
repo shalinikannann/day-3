@@ -1,0 +1,16 @@
+06.29 9:11 PM
+OddNum3.java
+import java.io.DataInputStream;
+import java.io.IOException;
+public class OddNum3 {
+public static void main (String[]  args) throws IOException {
+int a;
+DataInputStream d= new DataInputStream (System.in);
+a= Integer.parseInt(d.readLine ());
+if(a%2!=0)
+System.out.println(2);
+Else
+System.out.println(1);
+}
+}
+
