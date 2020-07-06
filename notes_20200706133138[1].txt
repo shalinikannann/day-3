@@ -1,0 +1,22 @@
+07.06 1:30 PM
+SeconnLast3.java
+import java.io.DataInputStream;
+import java.io.IOException;
+public class SecondLast3 {
+public static void main (String[] args) throws IOException {
+int a;
+DataInputStream d= new DataInputStream (System.in);
+a=Integer.parseInt(d.readline());
+if (a==a%10)
+{
+System.out.println(-1);
+}
+else
+{
+a=Math.abs(a)%100/10;
+System.out.println(a);
+}
+}
+}
+
+
