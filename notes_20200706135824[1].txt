@@ -1,0 +1,19 @@
+07.06 1:58 PM
+SumLastDigit3.java
+import java.io.DataInputStream;
+import java.io.IOException;
+public class SumLastDigit3 {
+public static void main (String[] args) throws IOException {
+int a;
+int b;
+DataInputStream d= new DataInputStream (System.in);
+a=Integer parse Int (d.readLine () );
+b=Integer parse Int (d.readLine () );
+a=Math.abs(a)%10;
+b=Math.abs(a)%10;
+int add=a+b;
+System.out.println(add);
+}
+}
+
+
